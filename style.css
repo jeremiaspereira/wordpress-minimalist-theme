@@ -1,0 +1,144 @@
+/*
+Theme Name: Minimalist
+Theme URI: https://jeremiaspereira.net/
+Author: jeremias Pereira | jeremiastpereira@gmail.com
+Description: 2015, primeiro tema criado que usei no meu blog.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+html { font-size: 62.5%; }
+
+body { padding: 0px; margin: 0px; background: #fff; background: #ebebeb; }
+
+body, input, textarea { font: 1.4em 'Open Sans', sans-serif; font-weight: normal; font-style: normal; line-height: 2.4em; color: #727272; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; font-weight: normal; color: #272727; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
+
+h1 { font-size: 2.5em; line-height: 1.5em; font-style: normal; font-weight: 300; }
+
+h1 b { display: block; font-size: 1.8em; line-height: 2.3em; font-weight: 300; margin-top: 13px; color: #727272; }
+
+h2 { font-size: 2.0em; line-height: 1.2em; font-style: normal; font-weight: 300; }
+
+h2 i { color: #13afeb; font-style: normal; }
+
+h2 b { display: block; font-size: 1.8em; line-height: 2.3em; font-weight: 300; margin-top: 13px; color: #727272; }
+
+h3 { font-size: 2.7em; line-height: 1.5em; margin-bottom: 18px; font-style: normal; }
+
+h4 { font-size: 2.2em; line-height: 2.5em; margin-bottom: 18px; font-style: normal; }
+
+h5 { font-size: 1.8em; line-height: 2.3em; margin-bottom: 16px; font-style: normal; }
+
+p, ul { font-family: 'Open Sans', sans-serif; font-size: 1.3em; font-weight: normal; line-height: 1.6em; margin-bottom: 1em; }
+
+a:hover { text-decoration: none; }
+
+.menu-header, #site-logo, .post, .pg-sobre, .footer .row { max-width: 80%; width: 80%; margin: 0 auto; }
+
+.text-center { text-align: center; }
+
+#commentform textarea { width: 100%; height: 200px; }
+
+/* ========================================================================== header ========================================================================== */
+#site-logo { text-align: center; padding: 20px 0 5px 0; margin-bottom: 20px; border-bottom: double medium #dddddd; }
+
+.menu-header { height: 50px; margin-bottom: 8px; }
+
+#menuHeader ul { text-align: center; }
+
+#menuHeader ul li { display: inline-block; padding: 0 10px; }
+
+#menuHeader ul li a { color: #6A6A6A; }
+
+.tabs-menu { background: url(images/bars.svg) no-repeat; width: 35px; height: 30px; display: block; opacity: 0.5; cursor: pointer; margin-top: 3px; position: absolute; }
+
+.erro { margin-top: 20%; }
+.erro .box { padding: 20px; background: #fff; width: 30%; margin-left: auto; margin-right: auto; }
+.erro h2 { text-align: center; }
+.erro .erro-404 { padding: 50px 0; text-align: center; font-size: 4em; line-height: 1.1; }
+
+/* ========================================================================== Centro do blog ========================================================================== */
+.post { background: #ffffff; padding: 10px 20px 0px 20px; margin: 0 auto; margin-bottom: 20px; }
+
+p.info-post { color: #aeaeae; font-size: 1.2em; line-height: 1em; font-style: italic; text-shadow: 1px 1px 0 #fff; }
+
+.post-header a { text-decoration: none; color: #303030; }
+
+.wp-post-image { margin-bottom: 15px; margin-top: 10px; }
+
+.lista-decorada li { list-style: none; }
+
+/* ========================================================================== Footer ========================================================================== */
+.footer { background: url("images/bg.gif") repeat; opacity: 0.9; padding: 20px 0; }
+
+.footer ul { list-style: none; padding: 0; margin: 0; font-size: 1.1em; color: #ffffff; text-align: center; }
+
+.footer a { font-size: 1.1em; padding: 0px 5px; background: #EFECEC; }
+
+.footer a:first-child { padding: 0 7px; }
+
+/* ========================================================================== página sobre ========================================================================== */
+.pg-sobre p, .pg-sobre ul { font-size: 1.2em; line-height: 1.3; margin-bottom: 0.5em; }
+
+.pg-sobre { margin: 0 auto; }
+
+.pg-sobre i { color: #ffffff; }
+
+.pg-sobre .pg-sobre-header { background: #2591E0; padding: 30px 0 10px 0; border-bottom: solid 10px  #2183CB; }
+
+.pg-sobre .pg-sobre-header p { color: #ffffff; }
+
+.pg-sobre-header h2 { color: #ffffff; margin: 20px 0; }
+
+.pg-sobre a { color: #1E96D9; }
+
+.pg-sobre .pg-sobre-header img { display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px; border: solid 5px #ffffff; }
+
+.pg-sobre .pg-sobre-body { background: #ffffff; padding: 20px 20px 10px 20px; }
+
+.pg-sobre .pg-sobre-body i { font-size: 1.1em; color: #5C5A5A; }
+
+.pg-sobre .social { text-align: center; background: #ffffff; margin-top: -15px; margin-bottom: 20px; border-top: solid 1px #E5E2E2; border-bottom: solid 1px #E5E2E2; }
+
+.pg-sobre .social i { font-size: 22px; }
+
+.pg-sobre .social .fa-facebook, .social-footer .fa-facebook:hover { color: #43609C; }
+
+.pg-sobre .social .fa-google-plus, .social-footer .fa-google-plus:hover { color: #D34331; }
+
+.pg-sobre .social .fa-twitter, .social-footer .fa-twitter:hover { color: #1B86BC; }
+
+.pg-sobre .social .fa-flickr, .social-footer .fa-flickr:hover { color: #FF0085; }
+
+.pg-sobre .social .fa-linkedin, .social-footer .fa-linkedin:hover { color: #1B86BC; }
+
+.pg-sobre .social .fa-instagram, .social-footer .fa-instagram:hover { color: #A5664D; }
+
+.pg-sobre ul { padding-left: 15px; }
+
+.pg-sobre label { padding: 5px 5px; font-weight: 400; }
+
+/* ========================================================================== Formatação código em post ========================================================================== */
+.codigo { background: none repeat scroll 0 0 #1d1f21; border-top: 25px solid #e18728; color: #fff; font-family: Consolas,Monaco,"Andale Mono",monospace; padding: 5px; }
+
+.citacao { border-left: 4px solid #9C9C9C; font-style: italic; font-weight: 100; letter-spacing: 0.01rem; padding-left: 10px; margin-bottom: 20px; }
+
+/* ========================================================================== Tela até 768px ========================================================================== */
+@media all and (max-width: 768px) { .menu-header, #site-logo, .post, .pg-sobre { max-width: 98%; width: 98%; margin: 0 auto; }
+  .menu-header { margin: 10px 0 0 5px; }
+  .tabs-menu { position: relative; }
+  #menuHeader ul li a { color: #ffffff; }
+  #menuHeader ul li a:hover { color: #BCBCBC; }
+  #menuHeader ul li { float: none; display: block; }
+  #menuHeader { margin-top: 7px; display: none; position: relative; z-index: 1; background: #3D6A99; }
+  #btnBars { display: block; font-size: 24px; }
+  .erro { margin-top: 20%; }
+  .erro .box { width: 80%; } }
+/* ========================================================================== Tela até 1000px ========================================================================== */
+@media all and (max-width: 1000px) { .erro { margin-top: 20%; }
+  .erro .box { width: 60%; } }

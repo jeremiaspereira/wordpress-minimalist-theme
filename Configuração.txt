@@ -1,0 +1,7 @@
+#1 Em personalização remova todos os widgets.
+
+#2 Em Aparência -> Menus, marque a opção "Primary Menu" para que o menu funcione.
+
+#3 Em Configurações -> Linkes Permanentes, marque a opção "Nome do Post".
+
+#4 Para que sua página de sobre fique dentro do tempalete, na página de sobre escolha o modelo "Template para sobre".
